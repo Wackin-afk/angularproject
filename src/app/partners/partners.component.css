@@ -1,0 +1,53 @@
+.threads{
+    background:url(../../assets/image2.jpg);
+    width: 100%;
+    height: 500px;
+}
+.thread{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(53, 53, 53, 0.5));
+    width: 90%;
+    margin-left: 90px;
+    height: 400px;
+}
+.threads h1 {
+    margin-left: 744px;
+    color:white;
+}
+.threads h2 {
+    margin-left: 150px;
+    margin-right: 150px;
+    color:white;
+    text-align: center;
+}
+h1{
+    margin-left: 650px;
+}
+button {
+    background-color: transparent;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    left: 850px;
+    top: 380px;
+    font-weight: 600;
+  }
+button:hover{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(44, 100, 255, 0.5));
+    color:black;
+    border:1px solid rgb(51, 51, 51);
+  }
+button:active {
+    background-color: #1f00d1;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  img{
+      height: 150px;
+      width: 150px;
+  }

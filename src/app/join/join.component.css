@@ -1,0 +1,57 @@
+.threads h1 {
+    margin-left: 680px;
+    color:white;
+}
+.threads h2 {
+    margin-left: 350px;
+    color:white;
+}
+.threads{
+    background:url(../../assets/image4.jpg);
+    width: 100%;
+    height: 500px;
+}
+.threadss{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(53, 53, 53, 0.5));
+    width: 90%;
+    margin-left: 90px;
+    height: 400px;
+}
+.thread{
+    margin-left: 300px;
+}
+h1{
+    margin-left: 400px;
+}
+button {
+    background-color: transparent;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    left: 840px;
+    top: 350px;
+    font-weight: 600;
+  }
+button:hover{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(29, 27, 25, 0.5));
+    color:black;
+    border:1px solid rgb(51, 51, 51);
+  }
+button:active {
+    background-color: #050505;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .container > p{
+      /* float: left; */
+      margin-right: 10px;
+  }
+.thread {
+    float:left;
+}
